@@ -1,0 +1,107 @@
+{
+  "hero": {
+    "eyebrow": "Corporación Raíces y Lazos de Territorio",
+    "titulo": "Un territorio florece cuando sus comunidades deciden su futuro.",
+    "descripcion": "Impulsamos procesos comunitarios que fortalecen la identidad, amplían oportunidades y cuidan la vida en los territorios."
+  },
+  "manifiesto": {
+    "etiqueta": "Nuestro manifiesto",
+    "texto": "Desarrollar un territorio es fortalecer a quienes lo habitan, reconocer sus raíces y abrir caminos para construir el futuro."
+  },
+  "nosotros": {
+    "etiqueta": "Nuestro propósito",
+    "titulo": "Tejemos capacidades para que las comunidades impulsen su propio desarrollo.",
+    "parrafo_1": "Somos una organización sin ánimo de lucro que trabaja por el desarrollo integral, sostenible, participativo y comunitario de personas, organizaciones y territorios.",
+    "parrafo_2": "Creemos en la organización colectiva, la diversidad cultural y el poder de las comunidades para crear soluciones que respeten su historia y proyecten nuevos caminos."
+  },
+  "trabajo": {
+    "etiqueta": "02 — Cómo trabajamos",
+    "entrada": "Procesos que dejan capacidad instalada",
+    "titulo": "Acompañamos sin imponer: construimos desde lo que cada comunidad ya sabe y propone.",
+    "pasos": [
+      {
+        "numero": "01",
+        "titulo": "Escuchamos",
+        "descripcion": "Reconocemos las historias, necesidades, saberes y posibilidades que existen en cada territorio."
+      },
+      {
+        "numero": "02",
+        "titulo": "Construimos juntos",
+        "descripcion": "Diseñamos respuestas con las comunidades, organizaciones y aliados que hacen parte del proceso."
+      },
+      {
+        "numero": "03",
+        "titulo": "Fortalecemos",
+        "descripcion": "Impulsamos capacidades, liderazgos y redes para que los procesos puedan sostenerse en el tiempo."
+      }
+    ]
+  },
+  "lineas": {
+    "etiqueta": "03 — Cómo aportamos",
+    "titulo": "Líneas de acción que nacen del territorio.",
+    "descripcion": "Articulamos conocimiento, participación y alianzas para acompañar iniciativas de interés colectivo.",
+    "areas": [
+      {
+        "color": "terracotta",
+        "titulo": "Educación y formación",
+        "descripcion": "Procesos de aprendizaje, liderazgo y fortalecimiento de capacidades para personas y organizaciones."
+      },
+      {
+        "color": "sand",
+        "titulo": "Cultura y memoria",
+        "descripcion": "Arte, patrimonio, saberes y expresiones que afirman la identidad y la cohesión social."
+      },
+      {
+        "color": "moss",
+        "titulo": "Ambiente y territorio",
+        "descripcion": "Educación ambiental, sostenibilidad, biodiversidad y defensa responsable de los territorios."
+      },
+      {
+        "color": "ink",
+        "titulo": "Participación y derechos",
+        "descripcion": "Ciudadanía activa, derechos humanos, diálogo social y fortalecimiento organizativo."
+      },
+      {
+        "color": "clay",
+        "titulo": "Economía e innovación",
+        "descripcion": "Emprendimiento, economía popular y solidaria e innovación con enfoque comunitario."
+      },
+      {
+        "color": "sage",
+        "titulo": "Paz e inclusión",
+        "descripcion": "Convivencia, equidad, inclusión social y construcción de paz desde las comunidades."
+      }
+    ]
+  },
+  "principios": {
+    "etiqueta": "Lo que guía cada proceso",
+    "titulo": "La transformación es colectiva, diversa y sostenible.",
+    "items": [
+      "Participación real de las comunidades",
+      "Respeto por la diversidad cultural y territorial",
+      "Equidad, inclusión y solidaridad",
+      "Transparencia y responsabilidad social"
+    ]
+  },
+  "participa": {
+    "etiqueta": "04 — Primer capítulo",
+    "entrada": "Una invitación abierta",
+    "titulo": "Este es el primer capítulo. Hagámoslo juntos.",
+    "descripcion": "Estamos dando los primeros pasos y queremos encontrarnos con comunidades, organizaciones, entidades, personas y redes que compartan la convicción de construir un país más justo, diverso y sostenible.",
+    "opciones": [
+      "Propón una alianza",
+      "Comparte una iniciativa",
+      "Conoce cómo apoyar"
+    ]
+  },
+  "contacto": {
+    "etiqueta": "Hablemos",
+    "titulo": "Las raíces se encuentran. Los lazos se construyen.",
+    "introduccion": "Cuéntanos sobre tu iniciativa, comunidad o propuesta de alianza.",
+    "correo": "contacto@raicesylazos.org",
+    "telefono": "+57 302 321 0242",
+    "ciudad": "Medellín, Antioquia",
+    "pais": "Colombia",
+    "dominio": "raicesylazos.org"
+  }
+}

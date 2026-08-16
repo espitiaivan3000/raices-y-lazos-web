@@ -1,0 +1,109 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "contenido"
+    label: "Contenido del sitio"
+    editor:
+      preview: false
+    files:
+      - label: "Página de inicio"
+        name: "inicio"
+        file: "content/site.json"
+        fields:
+          - label: "Portada"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Nombre institucional", name: "eyebrow", widget: "string" }
+              - { label: "Título principal", name: "titulo", widget: "text" }
+              - { label: "Texto de apoyo", name: "descripcion", widget: "text" }
+          - label: "Manifiesto"
+            name: "manifiesto"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta", name: "etiqueta", widget: "string" }
+              - { label: "Texto", name: "texto", widget: "text" }
+          - label: "Nosotros"
+            name: "nosotros"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta", name: "etiqueta", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "text" }
+              - { label: "Primer párrafo", name: "parrafo_1", widget: "text" }
+              - { label: "Segundo párrafo", name: "parrafo_2", widget: "text" }
+          - label: "Cómo trabajamos"
+            name: "trabajo"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta", name: "etiqueta", widget: "string" }
+              - { label: "Texto pequeño", name: "entrada", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "text" }
+              - label: "Pasos"
+                name: "pasos"
+                widget: "list"
+                fields:
+                  - { label: "Número", name: "numero", widget: "string" }
+                  - { label: "Título", name: "titulo", widget: "string" }
+                  - { label: "Descripción", name: "descripcion", widget: "text" }
+          - label: "Líneas de acción"
+            name: "lineas"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta", name: "etiqueta", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "text" }
+              - { label: "Descripción", name: "descripcion", widget: "text" }
+              - label: "Áreas"
+                name: "areas"
+                widget: "list"
+                fields:
+                  - label: "Color de tarjeta"
+                    name: "color"
+                    widget: "select"
+                    options:
+                      - { label: "Terracota", value: "terracotta" }
+                      - { label: "Arena", value: "sand" }
+                      - { label: "Verde", value: "moss" }
+                      - { label: "Verde oscuro", value: "ink" }
+                      - { label: "Arcilla", value: "clay" }
+                      - { label: "Salvia", value: "sage" }
+                  - { label: "Título", name: "titulo", widget: "string" }
+                  - { label: "Descripción", name: "descripcion", widget: "text" }
+          - label: "Principios"
+            name: "principios"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta", name: "etiqueta", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "text" }
+              - label: "Lista de principios"
+                name: "items"
+                widget: "list"
+                field: { label: "Principio", name: "principio", widget: "string" }
+          - label: "Primer capítulo"
+            name: "participa"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta", name: "etiqueta", widget: "string" }
+              - { label: "Texto pequeño", name: "entrada", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "text" }
+              - { label: "Descripción", name: "descripcion", widget: "text" }
+              - label: "Opciones de participación"
+                name: "opciones"
+                widget: "list"
+                field: { label: "Opción", name: "opcion", widget: "string" }
+          - label: "Contacto"
+            name: "contacto"
+            widget: "object"
+            fields:
+              - { label: "Etiqueta", name: "etiqueta", widget: "string" }
+              - { label: "Título", name: "titulo", widget: "text" }
+              - { label: "Texto del formulario", name: "introduccion", widget: "text" }
+              - { label: "Correo que recibe los formularios", name: "correo", widget: "string" }
+              - { label: "Teléfono", name: "telefono", widget: "string" }
+              - { label: "Ciudad", name: "ciudad", widget: "string" }
+              - { label: "País", name: "pais", widget: "string" }
+              - { label: "Dominio", name: "dominio", widget: "string", hint: "Sin https://" }
