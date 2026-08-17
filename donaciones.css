@@ -1,0 +1,318 @@
+/* =========================================
+   DONACIONES - CORPORACIÓN RAÍCES Y LAZOS
+========================================= */
+
+.donaciones-hero{
+
+    background:
+    linear-gradient(rgba(35,51,34,.75),rgba(35,51,34,.75)),
+    url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1800&q=80");
+
+    background-size:cover;
+    background-position:center;
+
+    padding:150px 20px 120px;
+
+    color:#fff;
+
+}
+
+.donaciones-hero .container{
+
+    max-width:1000px;
+    margin:auto;
+    text-align:center;
+
+}
+
+.donaciones-hero h1{
+
+    font-size:clamp(3rem,6vw,5rem);
+
+    margin-bottom:30px;
+
+    line-height:1.05;
+
+}
+
+.donaciones-hero p{
+
+    max-width:760px;
+
+    margin:auto;
+
+    font-size:1.25rem;
+
+    line-height:1.8;
+
+    color:#f2f2f2;
+
+}
+
+.btn-donar{
+
+    display:inline-block;
+
+    margin-top:45px;
+
+    background:#b5492a;
+
+    color:white;
+
+    padding:18px 42px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.btn-donar:hover{
+
+    background:#45603a;
+
+    transform:translateY(-3px);
+
+}
+
+.donaciones-intro{
+
+    padding:90px 20px;
+
+    background:white;
+
+}
+
+.donaciones-intro .container{
+
+    max-width:900px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.donaciones-intro h2{
+
+    font-size:2.6rem;
+
+    color:#233322;
+
+}
+
+.donaciones-intro p{
+
+    color:#555;
+
+    line-height:1.9;
+
+    font-size:1.1rem;
+
+}
+
+.formas-donar{
+
+    background:#f6f2ec;
+
+    padding:100px 20px;
+
+}
+
+.formas-donar .container{
+
+    max-width:1300px;
+
+    margin:auto;
+
+}
+
+.formas-donar h2{
+
+    text-align:center;
+
+    font-size:2.7rem;
+
+    margin-bottom:60px;
+
+    color:#233322;
+
+}
+
+.donaciones-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+}
+
+.donacion-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:40px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.donacion-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.donacion-card h3{
+
+    color:#45603a;
+
+    font-size:1.6rem;
+
+}
+
+.donacion-card p{
+
+    color:#666;
+
+    line-height:1.8;
+
+}
+
+.donacion-card button{
+
+    margin-top:20px;
+
+    width:100%;
+
+    border:none;
+
+    background:#b5492a;
+
+    color:white;
+
+    padding:16px;
+
+    border-radius:10px;
+
+    font-weight:700;
+
+    cursor:not-allowed;
+
+}
+
+.impacto{
+
+    padding:100px 20px;
+
+    background:white;
+
+}
+
+.impacto .container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+}
+
+.impacto h2{
+
+    text-align:center;
+
+    font-size:2.8rem;
+
+    color:#233322;
+
+    margin-bottom:60px;
+
+}
+
+.impacto-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+.impacto-grid div{
+
+    background:#45603a;
+
+    color:white;
+
+    padding:40px;
+
+    border-radius:16px;
+
+}
+
+.impacto-grid h3{
+
+    margin-top:0;
+
+}
+
+.transparencia{
+
+    background:#233322;
+
+    color:white;
+
+    padding:100px 20px;
+
+    text-align:center;
+
+}
+
+.transparencia .container{
+
+    max-width:900px;
+
+    margin:auto;
+
+}
+
+.transparencia h2{
+
+    font-size:2.6rem;
+
+}
+
+.transparencia p{
+
+    font-size:1.15rem;
+
+    line-height:1.9;
+
+}
+
+@media(max-width:768px){
+
+.donaciones-hero{
+
+padding:120px 20px 80px;
+
+}
+
+.donaciones-hero h1{
+
+font-size:2.8rem;
+
+}
+
+}
