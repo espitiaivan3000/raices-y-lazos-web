@@ -316,3 +316,81 @@ font-size:2.8rem;
 }
 
 }
+/* ==========================
+   TARJETAS DE DONACIÓN
+========================== */
+
+.donacion-icono{
+
+    width:70px;
+    height:70px;
+
+    border-radius:50%;
+
+    background:#45603a;
+
+    color:white;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:32px;
+
+    margin-bottom:25px;
+
+}
+
+.donacion-card{
+
+    border-top:6px solid #b5492a;
+
+}
+
+.donacion-card h3{
+
+    margin-top:0;
+
+    margin-bottom:18px;
+
+    color:#233322;
+
+}
+
+.donacion-card p{
+
+    min-height:120px;
+
+}
+
+.btn-donar-secundario{
+
+    display:inline-block;
+
+    margin-top:20px;
+
+    padding:14px 28px;
+
+    background:#233322;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:8px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.btn-donar-secundario:hover{
+
+    background:#b5492a;
+
+    transform:translateY(-2px);
+
+}
